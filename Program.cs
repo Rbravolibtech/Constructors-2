@@ -1,10 +1,14 @@
-﻿namespace Constructors_2;
+﻿using System;
+
+namespace Constructors_2
+{ 
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+            var car = new Car("ZXY123");
     }
 }
 
+}
